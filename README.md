@@ -14,6 +14,6 @@ git clone https://github.com/muhammadfathul/FBH
 
 cd FBH
 
-chmod +x FBHrombongan.py
+chmod +x FBHrombonganenc.py
 
-python2 FBHrombongan.py
+python2 FBHrombonganenc.py
