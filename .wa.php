@@ -1,16 +1,16 @@
 <?php
 echo "COPYRIGHT : SGB TEAM\n\n";
-echo "Nomor Target?\nInput : ";
+echo "\33[31;1mNomor Target?\nInput : ";
 $nomer = trim(fgets(STDIN));
 if(strlen($nomer)==11){
 	$nomer = str_replace("0","62".$nomer);
 }elseif(strlen($nomer)>12){
 	$nomer = str_replace("62","0",$nomer);
 }
-echo "Target: $nomer (y/n)";
+echo "\33[32;1mTarget: $nomer (y/n)";
 $cek = trim(fgets(STDIN));
 if($cek=="n") exit("Stopped!\n");
-echo "Jumlah?\nInput : ";
+echo "\33[36;1mJumlah?\nInput : ";
 $jumlah = trim(fgets(STDIN));
 for($a=0;$a<$jumlah;$a++) {
 	$rand1 = md5(rand(12345678,98765432));
