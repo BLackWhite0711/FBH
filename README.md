@@ -20,4 +20,4 @@ cd FBH
 
 chmod 777 *
 
-./FBH.sh
+./FBH
