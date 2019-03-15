@@ -22,7 +22,7 @@ git clone https://github.com/muhammadfathul/FBH
 
 cd FBH
 
-chmod 777 *
+chmod +x *
 
 bash .FBH
 
