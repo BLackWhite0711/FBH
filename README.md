@@ -4,6 +4,8 @@ apt update && apt upgrade
 
 pkg install nmap
 
+pkg install php
+
 pkg install git
 
 pkg install python
