@@ -10,9 +10,9 @@ pkg install python
 
 pkg install python2
 
-pip2 install requsts
+pip install requsts
 
-pip2 install bs4
+pip install bs4
 
 pip2 install mechanize
 
