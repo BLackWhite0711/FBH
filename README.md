@@ -23,3 +23,6 @@ cd FBH
 chmod 777 *
 
 bash .FBH
+
+kalo sudah berhasil masuk ketikan perintah
+"help" tanpa tanda kutip dua,
