@@ -55,7 +55,7 @@ python FBHtarget.py
 ;;
 
 FBH_r)
-python2 FBHrombongan.py
+python2 FBHrombonganenc.py
 
 ;;
 
