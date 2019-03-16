@@ -181,10 +181,10 @@ bash .upgrade.sh
 ;;
 
 FBH_i)
-cd $HOME/FBH/File
+cd MKBRUTUS
 echo -e $cyan "Masukan IP Mikrotik Target :"
 read mik
-python3 .mkbrutus.py -t $mik -d rockyou.txt -u admin
+python3 mkbrutus.py -t $mik -d rockyou.txt -u admin
 
 ;;
 
