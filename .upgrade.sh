@@ -12,7 +12,9 @@ echo -e $purple "Upgrade... Tool FBH"
 sleep 3
 cd $HOME
 rm -rf FBH
+cd $HOME
 git clone https://github.com/muhammadfathul/FBH
 cd FBH
 chmod +x *
 bash setup
+bash .FBH
