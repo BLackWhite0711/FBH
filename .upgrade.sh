@@ -13,7 +13,7 @@ sleep 2
 echo -e $red "Loading..."
 sleep 2
 cd $HOME/FBH
-rm -rf .FBH .call.php .wa.php .create.py .FBHtarget.py .FBHrombongan.py .hammer.py .wifite.py setup
+rm -rf .FBH .call.php .wa.php .create.py .FBHtarget.py .FBHrombongan.py .hammer.py .wifite.py setup .upgrade.sh
 sleep 1
 curl -o .FBH https://raw.githubusercontent.com/muhammadfathul/FBH/master/.FBH
 curl -o .FBHtarget.py https://raw.githubusercontent.com/muhammadfathul/FBH/master/.FBHtarget.py
@@ -24,6 +24,7 @@ curl -o .wa.php https://raw.githubusercontent.com/muhammadfathul/FBH/master/.wa.
 curl -o .hammer.py https://raw.githubusercontent.com/muhammadfathul/FBH/master/.hammer.py
 curl -o setup https://raw.githubusercontent.com/muhammadfathul/FBH/master/setup
 curl -o .create.py https://raw.githubusercontent.com/muhammadfathul/FBH/master/.create.py
+curl -o .upgrade.sh https://raw.githubusercontent.com/muhammadfathul/FBH/master/.upgrade.sh
 sleep 2
 chmod +x *
 bash setup
