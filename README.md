@@ -6,7 +6,7 @@ cd FBH
 
 chmod +x *
 
-sh setup
+bash setup
 
 bash .FBH
 
