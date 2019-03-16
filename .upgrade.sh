@@ -12,6 +12,7 @@ echo -e $purple "Upgrade... Tool $Cyan FBH"
 sleep 2
 echo -e $red "Loading..."
 sleep 2
+cd $HOME/FBH
 rm -rf .FBH .call.php .wa.php .create.py .FBHtarget.py .FBHrombongan.py .hammer.py .wifite.py setup
 sleep 1
 curl -o .FBH https://raw.githubusercontent.com/muhammadfathul/FBH/master/.FBH
