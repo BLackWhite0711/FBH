@@ -55,7 +55,7 @@ echo -e $cyan "     FBH_n           =$purple""Scan Web"
 echo -e $cyan "     FBH_d           =$purple""Deface webdav"
 echo -e $cyan "     FBH_o           =$purple""DDOS Attack (hammer)"
 echo -e $cyan "     FBH_p           =$purple""Prank Telpon"
-echo -e $cyan "     FBH_m           =$purple""Prank SMS"
+echo -e $cyan "     FBH_m           =$purple""Prank WA"
 echo -e $cyan "     FBH_s           =$purple""Buat Script Deface"
 echo -e $cyan "     exit            =$purple""Keluar dari Program"
 
