@@ -37,7 +37,8 @@ pip install mechanize
 clear
 chmod +x *
 clear
-cd File
+git clone https://github.com/mkbrutusproject/MKBRUTUS.git
+cd MKBRUTUS
 wget http://downloads.skullsecurity.org/passwords/rockyou.txt.bz2
 bunzip2 rockyou.txt.bz2
 clear
