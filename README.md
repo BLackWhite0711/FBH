@@ -12,7 +12,7 @@ pkg install python
 
 pkg install python2
 
-pip install requsts
+pip install requests
 
 pip install bs4
 
