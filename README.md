@@ -1,30 +1,17 @@
 # FBH
 
-apt update && apt upgrade
-
-pkg install nmap
-
-pkg install php
-
-pkg install git
-
-pkg install python
-
-pkg install python2
-
-pip install requests
-
-pip install bs4
-
-pip2 install mechanize
-
 git clone https://github.com/muhammadfathul/FBH
 
 cd FBH
 
 chmod +x *
 
+sh setup
+
 bash .FBH
 
 kalo sudah berhasil masuk ketikan perintah
 "help" tanpa tanda kutip dua,
+
+untuk Tutorial lengkapnya kunjungi :
+https://asecc-eror404.blogspot.com/2019/03/tool-hack-fbh-terbaru-2019-di-termux.html?m=1
