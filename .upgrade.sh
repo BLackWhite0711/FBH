@@ -17,4 +17,4 @@ git clone https://github.com/muhammadfathul/FBH
 cd FBH
 chmod +x *
 bash setup
-bash .FBH
+cd $HOME/FBH
