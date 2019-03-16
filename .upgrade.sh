@@ -15,4 +15,4 @@ rm -rf FBH
 git clone https://github.com/muhammadfathul/FBH
 cd FBH
 chmod +x *
-bash .FBH
+bash setup
