@@ -160,7 +160,7 @@ php .call.php
 
 ;;
 
-FBH_w)
+FBH_m)
 clear
 php .wa.php
 
@@ -180,7 +180,7 @@ exit
 
 ;;
 
-*) echo -e $red " [!]ketik help untuk informasi lengkapnya!!! "
+*) echo -e $red " [!]ketik (help) untuk informasi lengkapnya!!! "
 sleep 2
 esac
 done
