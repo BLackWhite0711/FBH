@@ -26,4 +26,5 @@ curl -o setup https://raw.githubusercontent.com/muhammadfathul/FBH/master/setup
 curl -o .create.py https://raw.githubusercontent.com/muhammadfathul/FBH/master/.create.py
 sleep 2
 chmod +x *
+bash setup
 bash .FBH
