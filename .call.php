@@ -11,6 +11,13 @@ function send($phone){
         curl_close($ch);
                 echo $asw."\n";
 }
+echo "\33[32;1m               ___   ___   _  _   "
+echo "\33[36;1m               | __| | _ ) | || |  *AsecC|~|eror404"
+echo "\33;36;1m               | _|  | _ \ | __ |  "
+echo "\33[32;1m              _|_|_  |___/ |_||_|  "
+echo '\33[31;1m        |"""""|| """ |HaxID|"""""||"""""| '
+echo "\33[36;1m            *-0-0-***-0-0-***-0-0-*   "
+echo ""
 echo "COPYRIGHT ; SGBTEAM\n\n";
 echo "\33[36;1mNomor\nInput : ";
 $nomor = trim(fgets(STDIN));
