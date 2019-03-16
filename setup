@@ -17,6 +17,10 @@ apt update && apt upgrade -y
 clear
 apt install nmap -y
 clear
+apt install wget -y
+clear
+apt install curl -y
+clear
 apt install php -y
 clear
 apt install git -y
@@ -32,6 +36,12 @@ clear
 pip install mechanize
 clear
 chmod +x *
+clear
+cd File
+wget http://downloads.skullsecurity.org/passwords/rockyou.txt.bz2
+bunzip2 rockyou.txt.bz2
+clear
+cd ..
 clear
 sleep 2
 echo -e $red "[!]$purple Ketik Perintah $red [bash .FBH] $purple untuk Menjalankan Tool Ini"
