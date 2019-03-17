@@ -37,13 +37,6 @@ pip install mechanize
 clear
 chmod +x *
 clear
-git clone https://github.com/mkbrutusproject/MKBRUTUS.git
-cd MKBRUTUS
-wget http://downloads.skullsecurity.org/passwords/rockyou.txt.bz2
-bunzip2 rockyou.txt.bz2
-clear
-cd ..
-clear
 sleep 2
 echo -e $red "[!]$purple Ketik Perintah $red [bash .FBH] $purple untuk Menjalankan Tool Ini"
 sleep 5
