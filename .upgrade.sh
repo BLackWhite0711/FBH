@@ -13,6 +13,7 @@ sleep 2
 echo -e $red "Loading..."
 sleep 2
 cd $HOME/FBH
+rm -rf MKBRUTUS
 rm -rf .FBH .call.php .wa.php .create.py .FBHtarget.py .FBHrombongan.py .hammer.py .wifite.py setup .upgrade.sh
 sleep 1
 curl -o .FBH https://raw.githubusercontent.com/muhammadfathul/FBH/master/.FBH
