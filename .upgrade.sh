@@ -29,7 +29,7 @@ curl -o .upgrade.sh https://raw.githubusercontent.com/muhammadfathul/FBH/master/
 curl -o .Bot.py https://raw.githubusercontent.com/muhammadfathul/FBH/master/.Bot.py
 curl -o .cloning.py https://raw.githubusercontent.com/muhammadfathul/FBH/master/.cloning.py
 sleep 2
-chmod +x *
-bash .upgrade.sh
+
+
 chmod +x *
 bash .FBH
