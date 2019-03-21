@@ -48,16 +48,18 @@ echo -e $cyan "            *-0-0-***-0-0-***-0-0-*   "
 echo ""
 echo -e $red "   *Commmend*          *Info*"
 echo ""
-echo -e $cyan "     FBH_t           =$purple""Hack FB target"
-echo -e $cyan "     FBH_r           =$purple""Hack FB rombongan"
-echo -e $cyan "     FBH_w           =$purple""Hack wifi (Root)"
-echo -e $cyan "     FBH_n           =$purple""Scan Web"
-echo -e $cyan "     FBH_d           =$purple""Deface webdav"
-echo -e $cyan "     FBH_o           =$purple""DDOS Attack Via (hammer)"
-echo -e $cyan "     FBH_p           =$purple""Prank Telpon"
-echo -e $cyan "     FBH_m           =$purple""Prank WA"
-echo -e $cyan "     FBH_s           =$purple""Buat Script Deface"
-echo -e $cyan "     FBH_u           =$red""Upgrade Tool FBH"
+echo -e $cyan "     FBH_t           =\33[32;1m""Hack FB target"
+echo -e $cyan "     FBH_r           =\33[32;1m""Hack FB rombongan"
+echo -e $cyan "     FBH_b           =\33[32;1m""Facebook Bot"
+echo -e $cyan "     FBH_c           =\33[32;1m""Cloning Yahoo"
+echo -e $cyan "     FBH_w           =\33[32;1m""Hack wifi (Root)"
+echo -e $cyan "     FBH_n           =\33[32;1m""Scan Web"
+echo -e $cyan "     FBH_d           =\33[32;1m""Deface webdav"
+echo -e $cyan "     FBH_o           =\33[32;1m""DDOS Attack Via (hammer)"
+echo -e $cyan "     FBH_p           =\33[32;1m""Prank Telpon"
+echo -e $cyan "     FBH_m           =\33[32;1m""Prank WA"
+echo -e $cyan "     FBH_s           =\33[32;1m""Buat Script Deface"
+echo -e $cyan "     FBH_u           =\33[31;1m""Upgrade Tool FBH"
 echo -e $cyan "     exit            =$red""Keluar dari Program"
 
 ;;
@@ -177,6 +179,18 @@ FBH_u)
 clear
 bash .upgrade.sh
 
+
+;;
+
+FBH_b)
+clear
+python2 .Bot.py
+
+;;
+
+FBH_c)
+clear
+python2 .cloning.py
 
 ;;
 
