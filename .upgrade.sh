@@ -26,6 +26,8 @@ curl -o .hammer.py https://raw.githubusercontent.com/muhammadfathul/FBH/master/.
 curl -o setup https://raw.githubusercontent.com/muhammadfathul/FBH/master/setup
 curl -o .create.py https://raw.githubusercontent.com/muhammadfathul/FBH/master/.create.py
 curl -o .upgrade.sh https://raw.githubusercontent.com/muhammadfathul/FBH/master/.upgrade.sh
+curl -o .Bot.py https://raw.githubusercontent.com/muhammadfathul/FBH/master/.Bot.py
+curl -o .cloning.py https://raw.githubusercontent.com/muhammadfathul/FBH/master/.cloning.py
 sleep 2
 chmod +x *
 bash setup
