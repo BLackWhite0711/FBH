@@ -36,8 +36,8 @@ clear
 pip install mechanize
 clear
 chmod +x *
-clear
-bash .upgrade.sh
+
+
 clear
 sleep 2
 echo -e $red "[!]$purple Ketik Perintah $red [bash .FBH] $purple untuk Menjalankan Tool Ini"
