@@ -58,9 +58,9 @@ echo -e $purple "     FBH_d           =$cyan""Deface webdav"
 echo -e $purple "     FBH_o           =$cyan""DDOS Attack Via (hammer)"
 echo -e $purple "     FBH_p           =$cyan""Prank Telpon"
 echo -e $purple "     FBH_m           =$cyan""Prank WA"
-echo -e $purple "     FBH_s           =$cyan""Buat Script Deface"
-echo -e $purple "     FBH_u           =$red""Upgrade Tool FBH"
-echo -e $purple "     exit            =$red""Keluar dari Program"
+echo ""
+echo -e $cyan "     FBH_u           =$red""Upgrade Tool FBH"
+echo -e $cyan "     exit            =$red""Keluar dari Program"
 
 ;;
 
