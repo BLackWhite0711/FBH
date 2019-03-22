@@ -32,4 +32,6 @@ sleep 2
 
 
 chmod +x *
+clear
+bash 
 bash .FBH
