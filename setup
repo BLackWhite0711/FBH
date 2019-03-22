@@ -33,7 +33,15 @@ pip install requests
 clear
 pip install bs4
 clear
-pip install mechanize
+pip2 install mechanize
+clear
+pip2 install requests
+clear
+pip2 install bs4
+clear
+pip install -r requirements.txt
+clear
+pip2 install -r requirements.txt
 clear
 chmod +x *
 
