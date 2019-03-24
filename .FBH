@@ -7,6 +7,9 @@ green='\e[0;23m'
 purple='\e[1;35m'
 cyan='\e[1;36m'
 red='\e[1;31m'
+echo
+echo
+python2 .password.py
 
 echo -e $purple "               ___   ___   _  _   "
 echo -e $cyan "               | __| | _ ) | || |  *AsecC|~|eror404"
