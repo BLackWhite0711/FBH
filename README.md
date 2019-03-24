@@ -19,7 +19,7 @@ kalo sudah berhasil masuk ketikan perintah
 
 
 
-untuk password  Tutorial lengkapnya kunjungi :
+untuk password dan Tutorial lengkapnya kunjungi :
 https://asecc-eror404.blogspot.com/2019/03/tool-hack-fbh-terbaru-2019-di-termux.html?m=1
 
 Go to my profile facebook : https://m.facebook.com/komaro.bae?ref=bookmarks
