@@ -8,11 +8,11 @@ git clone https://github.com/muhammadfathul/FBH
 
 cd FBH
 
-chmod +x *
+chmod 777 *
 
 bash setup
 
-bash .FBH
+./FBH
 
 kalo sudah berhasil masuk ketikan perintah
 "help" tanpa tanda kutip dua,
