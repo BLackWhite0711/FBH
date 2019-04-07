@@ -19,6 +19,16 @@ apt install nmap -y
 clear
 apt install wget -y
 clear
+apt install lolcat
+clear
+apt install figlet
+clear
+apt install cowsay
+clear
+gem install lolcat
+clear
+pip2 install enlighten
+clear
 apt install curl -y
 clear
 apt install php -y
