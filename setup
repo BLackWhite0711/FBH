@@ -17,6 +17,10 @@ apt update && apt upgrade -y
 clear
 apt install nmap -y
 clear
+apt install python
+clear
+apt install python2
+clear
 apt install wget -y
 clear
 apt install lolcat
